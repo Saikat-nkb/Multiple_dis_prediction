@@ -17,10 +17,10 @@ from streamlit_option_menu import option_menu
 #Loading the saved models
 
 
-with open('/content/diabetes_model.sav','rb') as f:
+with open('diabetes_model.sav','rb') as f:
   diabetes_model = pickle.load(f)
 
-with open('/content/heart_disease_model.sav','rb') as f:
+with open('heart_disease_model.sav','rb') as f:
   heart_disease_model = pickle.load(f)
 
 # Creating a Streamlit app
