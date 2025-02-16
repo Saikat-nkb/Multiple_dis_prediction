@@ -8,9 +8,9 @@ Original file is located at
 """
 
 import pickle
-#!pip install -q streamlit
+!pip install -q streamlit
 import streamlit as st
-#!pip install -q streamlit-option-menu
+!pip install -q streamlit-option-menu
 import streamlit_option_menu
 from streamlit_option_menu import option_menu
 
